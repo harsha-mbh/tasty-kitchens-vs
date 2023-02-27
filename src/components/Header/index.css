@@ -1,0 +1,88 @@
+.nav-container{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.responsive-container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.visible-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.chef-hat{
+    margin-right: 10px;
+}
+.menu-icon{
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+
+.menu-container-mobile{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list-container-desktop{
+    display: none;
+}
+.menu-list-container-mobile{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+    align-items: center;
+}
+.menu-item{
+    color: #334155;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.menu-link{
+    text-decoration: none;
+}
+.logout-btn{
+    background-color: #F7931E;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.close-btn{
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+@media screen and (min-width:768px) {
+    .menu-icon{
+        display: none;
+    }
+    .menu-container-mobile{
+        display: none;
+    }
+    .menu-list-container-desktop{
+        display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+    align-items: center;
+    }
+}
